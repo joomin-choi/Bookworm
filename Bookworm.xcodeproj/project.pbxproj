@@ -13,6 +13,7 @@
 		DBDE9CA328F6D88B00E96F7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDE9CA228F6D88B00E96F7E /* Preview Assets.xcassets */; };
 		DBDE9CAB28F6F0CE00E96F7E /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9CA928F6F0CD00E96F7E /* Bookworm.xcdatamodeld */; };
 		DBDE9CAD28F6F11700E96F7E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9CAC28F6F11700E96F7E /* DataController.swift */; };
+		DBDE9CAF28F7183F00E96F7E /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9CAE28F7183F00E96F7E /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DBDE9CA228F6D88B00E96F7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBDE9CAA28F6F0CE00E96F7E /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		DBDE9CAC28F6F11700E96F7E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		DBDE9CAE28F7183F00E96F7E /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				DBDE9C9B28F6D88900E96F7E /* BookwormApp.swift */,
 				DBDE9C9D28F6D88900E96F7E /* ContentView.swift */,
+				DBDE9CAE28F7183F00E96F7E /* AddBookView.swift */,
 				DBDE9CA928F6F0CD00E96F7E /* Bookworm.xcdatamodeld */,
 				DBDE9CAC28F6F11700E96F7E /* DataController.swift */,
 				DBDE9C9F28F6D88B00E96F7E /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				DBDE9CAD28F6F11700E96F7E /* DataController.swift in Sources */,
 				DBDE9CAB28F6F0CE00E96F7E /* Bookworm.xcdatamodeld in Sources */,
 				DBDE9C9C28F6D88900E96F7E /* BookwormApp.swift in Sources */,
+				DBDE9CAF28F7183F00E96F7E /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
