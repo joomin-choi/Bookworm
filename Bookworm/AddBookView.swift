@@ -11,6 +11,8 @@ struct AddBookView: View {
     @Environment(\.managedObjectContext) var moc
     @Environment(\.dismiss) var dismiss
     
+    @State private var emptyFields = false
+    
     @State private var title = ""
     @State private var author = ""
     @State private var genre = ""
@@ -54,6 +56,10 @@ struct AddBookView: View {
                         try? moc.save()
                         dismiss()
                     }
+                    .disabled(title.isEmpty ||
+                              author.isEmpty ||
+                              genre.isEmpty ||
+                              review.isEmpty)
                 }
             }
             .navigationTitle("Add Book")

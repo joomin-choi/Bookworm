@@ -35,6 +35,10 @@ struct DetailView: View {
                 .font(.title)
                 .foregroundColor(.secondary)
             
+            Text(book.review ?? "Review not found")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            
             RatingView(rating: .constant(Int(book.rating)))
                 .font(.largeTitle)
         }
