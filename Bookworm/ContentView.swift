@@ -28,8 +28,13 @@ struct ContentView: View {
                                 .font(.largeTitle)
                             
                             VStack(alignment: .leading) {
-                                Text(book.title ?? "Unknown Author")
-                                    .foregroundColor(.secondary)
+                                if  book.rating == 1 {
+                                    Text(book.title ?? "Unknown Author")
+                                        .foregroundColor(.red)
+                                } else {
+                                    Text(book.title ?? "Unknown Author")
+                                        .foregroundColor(.secondary)
+                                }
                             }
                         }
                     }
