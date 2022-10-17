@@ -65,10 +65,10 @@
 			children = (
 				DBDE9C9B28F6D88900E96F7E /* BookwormApp.swift */,
 				DBDE9C9D28F6D88900E96F7E /* ContentView.swift */,
-				DBDE9CB228F7252D00E96F7E /* EmojiRatingView.swift */,
 				DBDE9CAE28F7183F00E96F7E /* AddBookView.swift */,
-				DBDE9CB028F7208300E96F7E /* RatingView.swift */,
 				DBF773F528FD603500645391 /* DetailView.swift */,
+				DBDE9CB028F7208300E96F7E /* RatingView.swift */,
+				DBDE9CB228F7252D00E96F7E /* EmojiRatingView.swift */,
 				DBDE9CA928F6F0CD00E96F7E /* Bookworm.xcdatamodeld */,
 				DBDE9CAC28F6F11700E96F7E /* DataController.swift */,
 				DBDE9C9F28F6D88B00E96F7E /* Assets.xcassets */,
