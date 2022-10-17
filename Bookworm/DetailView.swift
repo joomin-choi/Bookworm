@@ -41,9 +41,12 @@ struct DetailView: View {
             
             RatingView(rating: .constant(Int(book.rating)))
                 .font(.largeTitle)
+            
+            Text("Added:")
+            Text(book.date!, style: .date)
+            Text(book.date!, style: .time)
         }
         .navigationTitle(book.title ?? "Unknown Book")
-        .navigationBarTitleDisplayMode(.inline)
         .alert("Delete book?", isPresented:  $showingDeleteAlert) {
             Button("Delete", role: .destructive, action: deleteBook)
             Button("Cancel", role: .cancel) { }
